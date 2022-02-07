@@ -24,10 +24,12 @@ body{
      color: gainsboro;
      text-decoration: none;
      font: bold normal 16px Arial;
+
  }
  .buttom_link_title a:hover{
      color: rgb(228, 137, 0);
      text-decoration: none;
-     font: bold normal 16px Arial;
-     
+     font: bold normal 16px Arial;     
+     transition: 0.5s;
+
  }
