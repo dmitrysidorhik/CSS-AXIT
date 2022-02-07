@@ -7,29 +7,28 @@ body{
     height: 70px;
     background-color: black;
     align-items: center;
+    justify-content: space-between;
  
  }
  .begin a img{
-    display: inline-flex;
     width: 80px;
     height: 30px; 
     padding-left: 100px;    
-    align-items: stretch;  
+    align-items: stretch;   
  
  }
  .begin a img:hover{
-    opacity: .8;
+    opacity: .8;    
  }
+ 
  .buttom_link_title a{
      color: gainsboro;
      text-decoration: none;
      font: bold normal 16px Arial;
+     transition: 0.5s;
+     padding-right: 100px;   
 
  }
  .buttom_link_title a:hover{
      color: rgb(228, 137, 0);
-     text-decoration: none;
-     font: bold normal 16px Arial;     
-     transition: 0.5s;
-
  }
