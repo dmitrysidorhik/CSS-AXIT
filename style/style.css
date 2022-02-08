@@ -1,10 +1,9 @@
 body {
     margin: 0%;
-
 }
 
 .begin {
-    position: fixed;  
+    position: fixed;
     display: flex;
     width: 100%;
     height: 70px;
@@ -13,7 +12,7 @@ body {
     justify-content: space-between;
 }
 
-.begin a img { 
+.begin a img {
     width: 80px;
     height: 30px;
     padding-left: 8vw;
@@ -35,13 +34,31 @@ body {
 .buttom_link_begin a:hover {
     color: rgb(228, 137, 0);
 }
-.title{    
-    height: 600px;    
+
+.title {
+    height: 650px;
     background: url(../images/background_img.jpg);
 }
-.background_images{
-    height: 600px;    
+
+.background_images {
+    height: 650px;
     background-color: rgba(63, 50, 50, 0.5);
 }
 
+.title_down {
+    width: 100%;
+    height: 830px;
+    /* background-color: rgba(234, 232, 240, 0.5); */
+}
 
+.icons {
+    width: 250px;
+    height: 450px;
+    display: block;
+    float: left;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+ }
+
+
+ 
