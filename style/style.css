@@ -1,7 +1,9 @@
 body {
     margin: 0%;
 }
-
+html {
+    scroll-behavior: smooth; 
+  }
 .begin {
     position: fixed;
     display: flex;
@@ -73,7 +75,6 @@ body {
     margin: 0%;
     padding-bottom: 5px;
 	font: 15px/20px Arial;
-
 }
 
 .icons img {
@@ -89,8 +90,8 @@ body {
     filter: invert(57%) sepia(72%) saturate(2665%) hue-rotate(8deg) brightness(98%) contrast(101%);
 }
 
-.Features{
-    height: 500px;
+.features{
+    height: 1000px;
     background-color: rgb(243, 243, 243);
     
 }
