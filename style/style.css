@@ -58,11 +58,24 @@ body {
     padding-right: 100px;
 }
 
-.title_down_text_br{
+.title_down_text    {
     padding-left: 8vw;
-    width: 400px;
+    width: 350px;
+}
+.title_down_text h2{
+    color: rgb(51,51,51);
+    margin: 0%;
+    padding-bottom: 5px;
+	font: bold 20px/25px Arial;
+}
+.title_down_text p{
+    color: rgb(141,142,146);
+    margin: 0%;
+    padding-bottom: 5px;
+	font: 15px/20px Arial;
 
 }
+
 .icons img {
     transition: 0.5s;
     opacity: .2;
@@ -80,5 +93,4 @@ body {
     height: 500px;
     background-color: rgb(243, 243, 243);
     
-
 }
