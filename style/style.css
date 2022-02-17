@@ -64,6 +64,13 @@ html {
      border: 1px solid red;
 }
 
+hr{
+    margin-left: 0;
+    width: 100px;
+    border: none;  
+    background-color: white;  
+    height: 2px; /* Толщина линии */
+}
 .left_content{
     width: 600px;
     border: 1px solid green;
