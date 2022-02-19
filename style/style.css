@@ -254,12 +254,11 @@ html {
 .sub_left_content img{
     /* justify-content: space-between; */
     margin: 10vw;
-
     border: 1px solid red;
 }
 .sub_list_section hr{
     margin-left: 0;
-    width: 100px;
+    width: 70px;
     border: none;  
     background-color: rgb(231, 127, 8);  
     height: 2px; 
@@ -267,6 +266,7 @@ html {
 .sub_right_content{
     width: 450px;
     padding-top: 100px;
+    border: 1px solid red;
 
 }
 .sub_right_content h2{
@@ -278,24 +278,40 @@ html {
 .sub_right_content p{
     font:  15px/20px Arial;
     color: #939396;
+ }
+
+ .element_upload, .element_download{
+    border: 1px solid red;
+     display: flex; 
+    padding-top: 20px;
+ }
+ .icon_u, .icon_d{
+    padding-top: 10px;
+    
+ }
+.text{
+    font: bold 15px/20px Arial;
+    color: #3f3f3f;
 }
 
-.element_upload:before {
+.icon_u:before { 
     content: "\f0ee";
     font-family: FontAwesome; 
     border: 2px solid #ff8b38;
     border-radius: 100px;
     color: #ff8b38;
     padding: 10px;
+    margin-right: 20px;
 }
-.element_download:before {
+.icon_d:before {
     content: "\f0ed";
     font-family: FontAwesome; 
     border: 2px solid #ff8b38;
     border-radius: 100px;
     color: #ff8b38;
     padding: 10px;
+    margin-right: 20px;
 
 }
- 
+
  
