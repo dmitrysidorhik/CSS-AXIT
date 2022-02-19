@@ -59,12 +59,10 @@ html {
     justify-content: space-between;
     margin-left: 8vw;
     margin-right: 8vw;  
-    /* margin-left: 80px;
-    margin-right: 80px;   */
-     border: 1px solid red;
+    border: 1px solid red;
 }
 
-hr{
+.left_content hr{
     margin-left: 0;
     width: 100px;
     border: none;  
@@ -170,35 +168,9 @@ hr{
 
   } 
   .right_content button:hover{
-    background-color: #fc7515f8;
- 
+    background-color: #fc7515f8; 
   } 
 /*  FORM   */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* --------------------------------------------------------- */
 
@@ -250,7 +222,45 @@ hr{
     filter: invert(57%) sepia(72%) saturate(2665%) hue-rotate(8deg) brightness(98%) contrast(101%);
 }
 
+
+/* --------------------------------- */
 .features {
-    height: 1000px;
+    height: 600px;
     background-color: rgb(243, 243, 243);
+}
+.features_button_tab{
+    list-style-type: none;
+    margin: auto;
+}
+.features_button_tab li button{
+    font: bold normal 16px Arial;
+    background-color: #363432;
+    border: none;
+    color: white;
+    width: 100px; 
+    height: 100px; 
+}
+.features_button_tab li button:hover{
+    background-color: #fc7515f8; 
+  } 
+
+
+/* --------------------------------- */
+.sub_list_section {
+    display: flex;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+.sub_left_content img{
+    /* justify-content: space-between; */
+    margin: 10vw;
+
+    border: 1px solid red;
+}
+.sub_list_section hr{
+    margin-left: 0;
+    width: 100px;
+    border: none;  
+    background-color: rgb(231, 127, 8);  
+    height: 2px; 
 }
