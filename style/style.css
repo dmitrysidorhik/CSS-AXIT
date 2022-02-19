@@ -272,10 +272,30 @@ html {
 .sub_right_content h2{
     font:  bold 20px/25px Arial;
     color: #2e2e30;
+ 
 
 }
 .sub_right_content p{
     font:  15px/20px Arial;
     color: #939396;
+}
+
+.element_upload:before {
+    content: "\f0ee";
+    font-family: FontAwesome; 
+    border: 2px solid #ff8b38;
+    border-radius: 100px;
+    color: #ff8b38;
+    padding: 10px;
+}
+.element_download:before {
+    content: "\f0ed";
+    font-family: FontAwesome; 
+    border: 2px solid #ff8b38;
+    border-radius: 100px;
+    color: #ff8b38;
+    padding: 10px;
 
 }
+ 
+ 
