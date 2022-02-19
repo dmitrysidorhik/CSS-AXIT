@@ -264,3 +264,18 @@ html {
     background-color: rgb(231, 127, 8);  
     height: 2px; 
 }
+.sub_right_content{
+    width: 450px;
+    padding-top: 100px;
+
+}
+.sub_right_content h2{
+    font:  bold 20px/25px Arial;
+    color: #2e2e30;
+
+}
+.sub_right_content p{
+    font:  15px/20px Arial;
+    color: #939396;
+
+}
