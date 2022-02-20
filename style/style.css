@@ -257,11 +257,14 @@ html {
     display: flex;
     height: 600px;
     background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .sub_left_content img {
     /* justify-content: space-between; */
-    margin: 10vw;
+    margin-top: 150px;
     /* border: 1px solid red; */
     box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.2);
 
