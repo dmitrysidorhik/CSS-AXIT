@@ -428,7 +428,36 @@ html {
     font-weight: normal;
     text-align: center;
 }
-/* --------------------------------- */
+.cloud{
+    display: flex; 
+    flex-direction: row;
 
+
+}
+.cloud_a{
+    margin: 40px 60px;
+    text-align: center;
+    width: 250px;
+    height: 150px; 
+    border-radius: 5px;     
+    background-color: #f3f3f5;
+    position: relative;
+
+
+
+}
+/* --------------------------------- */
+.cloud_a:before {
+    /* margin-left: 200px; */
+    position: absolute;
+    content: "";
+    right: 80%;
+    top: 100%;
+    width: 0; 
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #f3f3f5;
+}
 
 
