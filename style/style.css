@@ -406,17 +406,14 @@ html {
 /* --------------------------------- */
 
 .costumers {
-    /* display: flex; */
     height: 500px;
     background-color: rgb(255, 255, 255);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .costumers .text {
     flex-direction: column;
-    border: 1px solid red;
-    /* justify-content: center; */
-
+    /* border: 1px solid red; */
 }
 
 .costumers .text hr {
@@ -443,23 +440,20 @@ html {
 
 .cloud {
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
 }
 
 .cloud_a {
     margin: 40px 60px;
     text-align: center;
-    width: 250px;
+    width: 270px;
     height: 150px;
     border-radius: 5px;
     background-color: #f3f3f5;
     position: relative;
-
 }
 
 .cloud_a:before {
-    /* margin-left: 200px; */
     position: absolute;
     content: "";
     right: 80%;
@@ -471,27 +465,42 @@ html {
     border-top: 20px solid #f3f3f5;
 }
 
-.cloud_a p{
-    color: red;
-    text-align: left;}
-
+#text_in_cloud {
+    font: 15px/20px Arial;
+    color: #939396;
+    text-align: left;
+    margin: 15px;
+    font-style: italic;
+}
 
 .avatar {
     margin-top: 70px;
     display: flex;
-    border: 1px solid red; 
+    /* border: 1px solid red; */
 }
 
 .avatar img {
     margin-right: 20px;
 }
-.text_a p{
-    margin: auto;
+
+.text_a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
-.text_a h2{
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+.text_a p {
+    margin: 5px;
+    font-style: bold;
+    font: 15px/20px Arial;
+    color: #939396;
+    text-align: left;
+}
+
+.text_a h2 {
+    font: bold 20px/20px Arial;
+    color: #414141;
+    margin: 5px;
 }
 
 
