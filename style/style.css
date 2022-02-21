@@ -12,6 +12,8 @@ html {
 .begin {
     position: fixed;
     display: flex;
+    z-index: 1;
+
     width: 100%;
     height: 70px;
     background-color: black;
@@ -451,6 +453,7 @@ html {
     border-radius: 5px;
     background-color: #f3f3f5;
     position: relative;
+    z-index: 0;
 }
 
 .cloud_a:before {
@@ -516,7 +519,7 @@ html {
 }
 
 .stylish {
-    height: 500px;
+    height: 5000px;
     background-color: rgb(255, 255, 255);
     /* border: 1px solid red; */
 }
