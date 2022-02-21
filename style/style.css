@@ -507,4 +507,43 @@ html {
 /* --------------------------------- */
 
 
-/* Test */
+/* --------------------------------- */
+
+.stylish {
+    height: 300px;
+    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/bottom-bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.stylish {
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+}
+
+.stylish .text {
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.stylish .text hr {
+    margin-left: 0;
+    width: 70px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    margin: auto;
+}
+
+.stylish .text p {
+    font: 15px/20px Arial;
+    color: #9e9e9e;
+    text-align: center;
+}
+
+.stylish .text h1 {
+    color: rgba(255, 255, 255, 0.801);
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+}
