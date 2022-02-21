@@ -408,15 +408,16 @@ html {
 /* --------------------------------- */
 
 .costumers {
-    height: 500px;
+    display: flex;
+    height: 550px;
     background-color: rgb(255, 255, 255);
-    /* border: 1px solid red; */
-}
+    justify-content: center;
+    flex-direction: column;
+ }
 
 .costumers .text {
     flex-direction: column;
-    /* border: 1px solid red; */
-}
+ }
 
 .costumers .text hr {
     margin-left: 0;
@@ -443,6 +444,7 @@ html {
 .cloud {
     display: flex;
     justify-content: center;
+ 
 }
 
 .cloud_a {
@@ -454,6 +456,7 @@ html {
     background-color: #f3f3f5;
     position: relative;
     z-index: 0;
+
 }
 
 .cloud_a:before {
@@ -479,8 +482,7 @@ html {
 .avatar {
     margin-top: 70px;
     display: flex;
-    /* border: 1px solid red; */
-}
+ }
 
 .avatar img {
     margin-right: 20px;
@@ -515,18 +517,17 @@ html {
 .stylish {
     height: 300px;
     background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/bottom-bg.jpg) no-repeat;
-    background-size: 100%;
+    background-size: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
 
-.stylish {
-    height: 5000px;
-    background-color: rgb(255, 255, 255);
-    /* border: 1px solid red; */
-}
+
 
 .stylish .text {
     flex-direction: column;
-    /* border: 1px solid red; */
 }
 
 .stylish .text hr {
@@ -545,7 +546,7 @@ html {
 }
 
 .stylish .text h1 {
-    color: rgba(255, 255, 255, 0.801);
+    color: rgba(255, 255, 255);
     text-transform: uppercase;
     font-weight: normal;
     text-align: center;
