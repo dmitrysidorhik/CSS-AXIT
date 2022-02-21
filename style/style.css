@@ -406,16 +406,17 @@ html {
 /* --------------------------------- */
 
 .costumers {
-    display: flex;
+    /* display: flex; */
     height: 500px;
     background-color: rgb(255, 255, 255);
-    justify-content: center;
     border: 1px solid red;
 }
 
 .costumers .text {
     flex-direction: column;
     border: 1px solid red;
+    /* justify-content: center; */
+
 }
 
 .costumers .text hr {
@@ -442,7 +443,8 @@ html {
 
 .cloud {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: center;
 }
 
 .cloud_a {
@@ -453,6 +455,7 @@ html {
     border-radius: 5px;
     background-color: #f3f3f5;
     position: relative;
+
 }
 
 .cloud_a:before {
@@ -468,18 +471,27 @@ html {
     border-top: 20px solid #f3f3f5;
 }
 
+.cloud_a p{
+    color: red;
+    text-align: left;}
+
+
 .avatar {
     margin-top: 70px;
     display: flex;
-    border: 1px solid red;
+    border: 1px solid red; 
 }
 
 .avatar img {
     margin-right: 20px;
 }
-
-#name {
-    color: #ff8b38;
+.text_a p{
+    margin: auto;
+}
+.text_a h2{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
