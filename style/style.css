@@ -551,3 +551,43 @@ html {
     font-weight: normal;
     text-align: center;
 }
+/* --------------------------------- */
+
+
+
+
+
+/* --------------------------------- */
+.contact {
+    display: flex;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+ }
+
+.contact .text {
+    flex-direction: column;
+ }
+
+.contact .text hr {
+    margin-left: 0;
+    width: 70px;
+    border: none;
+    background-color: rgb(231, 127, 8);
+    height: 2px;
+    margin: auto;
+}
+
+.contact .text p {
+    font: 15px/20px Arial;
+    color: #939396;
+    text-align: center;
+}
+
+.contact .text h1 {
+    color: rgba(22, 21, 21, 0.801);
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+}
