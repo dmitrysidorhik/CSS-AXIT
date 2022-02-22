@@ -633,10 +633,15 @@ html {
     outline: none;
 
     box-shadow: inset 0px -1px 0px #bfbfcb;
+    padding-left: 10px;
+
 }
 .form_content input:focus {
     /* border: 3px solid blue; */
-    box-shadow: inset 0px 0px 1px 1px rgb(228, 137, 0);;
+    box-shadow: inset 0px 0px 1px 1px rgb(228, 137, 0);
+    border-radius: 5px;
+
+
 }
 .contact button {
     font: bold normal 16px Arial;
