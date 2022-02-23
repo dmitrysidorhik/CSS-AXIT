@@ -707,3 +707,31 @@ html {
     filter: invert(57%) sepia(72%) saturate(2665%) hue-rotate(8deg) brightness(98%) contrast(101%);
 }
 /* --------------------------------- */
+
+
+/* --------------------------------- */
+
+.button_home:before{
+    background-color: #ff8b38;
+    width:18px;
+    text-align:center;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    cursor:pointer;
+    content: "\f102";
+    font-family: FontAwesome;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+    transform: scale(1.5);
+    opacity: 0.6;
+    transition: 0.2s;
+
+
+}
+.button_home:hover:before {
+    opacity: 1;
+}
+
+/* --------------------------------- */
