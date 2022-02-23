@@ -241,6 +241,8 @@ html {
 .features_button_tab {
     list-style-type: none;
     margin: auto;
+    padding-top: 100px;
+
 }
 
 .features_button_tab li button {
@@ -264,6 +266,7 @@ html {
     height: 600px;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
+
     /* margin-left: 8vw; */
     /* margin-right: 8vw; */
 }
@@ -393,6 +396,9 @@ html {
     justify-content: space-between;
     text-align: center;
 }
+.awesome h1{
+    padding-top: 100px;
+}
 
 
 /* --------------------------------- */
@@ -404,9 +410,11 @@ html {
     height: 600px;
     background-color: rgb(243, 243, 243);
     justify-content: space-between;
-    text-align: center
+    text-align: center;
 }
-
+.pricing h1{
+    padding-top: 100px;
+}
 
 /* --------------------------------- */
 
