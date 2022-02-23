@@ -149,11 +149,17 @@ html {
 .right_content input {
     background: white;
     color: #bfbfcb;
-    margin: 30px;
-    padding: 0px;
+    margin: 20px;
+    padding: 10px;
     border: none;
     outline: none;
     box-shadow: inset 0px -1px 0px #bfbfcb;
+    padding-left: 10px;
+}
+
+.right_content input:focus {
+    box-shadow: inset 0px 0px 1px 1px rgb(228, 137, 0);
+    border-radius: 5px;
 }
 
 .right_content button {
