@@ -86,7 +86,7 @@ html {
 }
 
 .text_left_content {
-    font: normal 16px/23px Arial;
+    font: normal 26px/23px Arial;
     text-align: justify;
     color: rgba(255, 255, 255, 0.555);
     width: 550px;
@@ -735,3 +735,16 @@ html {
 }
 
 /* --------------------------------- */
+
+
+/* --------------------------------- */
+.left_content p{
+    font-family: 'Shizuru', cursive;    
+}
+
+/* --------------------------------- */
+
+.text_left_content {
+    font-family: 'Praise', cursive;
+
+}
