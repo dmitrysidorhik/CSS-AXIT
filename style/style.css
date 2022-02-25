@@ -1,5 +1,7 @@
 body {
-    margin: 0%;
+    margin: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 html {
@@ -13,7 +15,9 @@ html {
     position: fixed;
     display: flex;
     z-index: 1;
-    width: 100%;
+    width: 79.8%;
+    /* margin-right: 10vw;
+    margin-left: 10vw; */
     height: 70px;
     background-color: black;
     align-items: center;
@@ -23,7 +27,8 @@ html {
 .begin a img {
     width: 80px;
     height: 30px;
-    padding-left: 8vw;
+    margin-left: 8vw;
+    margin-right: 36.6vw;
     align-items: stretch;
 }
 
