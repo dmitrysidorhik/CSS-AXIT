@@ -13,7 +13,6 @@ html {
     position: fixed;
     display: flex;
     z-index: 1;
-
     width: 100%;
     height: 70px;
     background-color: black;
@@ -242,7 +241,6 @@ html {
     list-style-type: none;
     margin: auto;
     padding-top: 100px;
-
 }
 
 .features_button_tab li button {
@@ -266,7 +264,6 @@ html {
     height: 600px;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
-
     /* margin-left: 8vw; */
     /* margin-right: 8vw; */
 }
@@ -396,7 +393,8 @@ html {
     justify-content: space-between;
     text-align: center;
 }
-.awesome h1{
+
+.awesome h1 {
     padding-top: 100px;
 }
 
@@ -412,9 +410,11 @@ html {
     justify-content: space-between;
     text-align: center;
 }
-.pricing h1{
+
+.pricing h1 {
     padding-top: 100px;
 }
+
 
 /* --------------------------------- */
 
@@ -458,7 +458,6 @@ html {
 .cloud {
     display: flex;
     justify-content: center;
-
 }
 
 .cloud_a {
@@ -470,7 +469,6 @@ html {
     background-color: #f3f3f5;
     position: relative;
     z-index: 0;
-
 }
 
 .cloud_a:before {
@@ -538,8 +536,6 @@ html {
     justify-content: center;
 }
 
-
-
 .stylish .text {
     flex-direction: column;
 }
@@ -566,17 +562,15 @@ html {
     text-align: center;
 }
 
+
 /* --------------------------------- */
-
-
-
 
 
 /* --------------------------------- */
 
 .contact {
     height: 450px;
-    text-align: center; 
+    text-align: center;
 }
 
 .contact .text {
@@ -611,7 +605,7 @@ html {
     justify-content: space-around;
 }
 
-.form_content input {    
+.form_content input {
     height: 40px;
     width: 500px;
     background: white;
@@ -644,9 +638,10 @@ html {
     background-color: #fc7515f8;
 }
 
-.message{
+.message {
     margin: auto 0;
 }
+
 #textarea {
     width: 500px;
     height: 190px;
@@ -657,7 +652,6 @@ html {
     box-shadow: inset 0px -1px 0px #bfbfcb;
     padding-left: 10px;
     padding-top: 10px;
-
     resize: none;
     font: 15px/20px Arial;
     color: #939396;
@@ -665,16 +659,16 @@ html {
 
 #textarea:focus {
     box-shadow: inset 0px 0px 1px 1px rgb(228, 137, 0);
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
-/* --------------------------------- */
-
-
-
 
 /* --------------------------------- */
-.end{
+
+
+/* --------------------------------- */
+
+.end {
     display: flex;
     z-index: 1;
     color: #ccccccbb;
@@ -706,19 +700,21 @@ html {
     transform: scale(1.2);
     filter: invert(57%) sepia(72%) saturate(2665%) hue-rotate(8deg) brightness(98%) contrast(101%);
 }
-/* --------------------------------- */
 
 
 /* --------------------------------- */
 
-.button_home:before{
+
+/* --------------------------------- */
+
+.button_home:before {
     background-color: #ff8b38;
-    width:18px;
-    text-align:center;
-    position:fixed;
-    bottom:30px;
-    right:30px;
-    cursor:pointer;
+    width: 18px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
     content: "\f102";
     font-family: FontAwesome;
     border-radius: 100px;
@@ -727,24 +723,25 @@ html {
     transform: scale(1.5);
     opacity: 0.6;
     transition: 0.2s;
-
-
 }
+
 .button_home:hover:before {
     opacity: 1;
 }
 
+
 /* --------------------------------- */
 
 
 /* --------------------------------- */
-.left_content p{
-    font-family: 'Shizuru', cursive;    
+
+.left_content p {
+    font-family: 'Shizuru', cursive;
 }
+
 
 /* --------------------------------- */
 
 .text_left_content {
     font-family: 'Praise', cursive;
-
 }
